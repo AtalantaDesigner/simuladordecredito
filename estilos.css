@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size:70px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: bold;
+    color: #00ffff;
+    transition: text-shadow 1s ease-in-out;    
+}
+
+h1.withShadow {
+    text-shadow: 0.1em 0.1em 0.15em #0ff;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Iceland', cursive;
+    color: white;
+    -webkit-text-stroke: 0.05px #da25c1;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Turret Road', cursive;
+    color: #00ffff;
+}
+
+h5 {
+    font-size: 25px;
+    font-family:'Iceland', cursive;
+    color: #00ffff;
+
+}
+
+.contactarexperto{
+    font-family: 'Turret Road', cursive;
+
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+body {
+    text-align: center;
+}
+
+.agrupar {
+    width: 960px;
+    border: 1px solid violet;
+    margin: 15px auto;    
+}
+
+.cabecera{
+    border:1px solid blue;
+    padding: 20px;
+    background-image: url("imagenes/grafico1.jpg");
+    background-position: center;
+    
+}
+
+.cabecera h1{
+    text-align: center;
+}
+
+
+.menu {
+    background:#ef3e61 ;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;  
+    padding: 5px;
+    font: 50px verdana;
+    display: inline-block;
+    font-family:'Libre Barcode 39 Text', cursive;
+}
+
+.seccion {
+    margin: 20px;
+    width: 60%;
+    border: 1px solid white;
+    float: left;
+    font-size: 15px;
+    position: relative;
+    height: 344px;
+}
+
+.filtro {
+    background-image: url("imagenes/FinancialWorld.jpg");
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+}
+
+.textoseccion {
+    position: absolute;
+    padding: 20px;
+}
+
+.textoseccion hgroup {
+    margin-bottom: 32px;
+}
+
+.columna {
+    width: 30%;
+    float: right;
+    border:1px solid black;
+    margin: 20px;
+    display: none;
+}
+
+.pie {
+    clear: both ;
+}
+
+.btn-default {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}

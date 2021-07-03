@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1011,
+        "valor": 20000,
+        "estado": "PENDIENTE"
+    },
+    {
+        "id": 1012,
+        "valor": 100,
+        "estado": "APROBADO"
+    },
+    {
+        "id": 1013,
+        "valor": 50000,
+        "estado": "RECHAZADO"
+    },
+    {
+        "id": 1014,
+        "valor": 25000,
+        "estado": "PENDIENTE"
+    }
+]

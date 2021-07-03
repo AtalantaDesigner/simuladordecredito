@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Banco Brocco</title>
+        <meta name="description" content="Este es el banco para su credito" />
+        <meta name="author" content="Orne"/>
+        <meta name="keywords" content="Mi Banco tu banco"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="animacionesInicio.js"></script>
+    </head>
+    <body>
+      <div class="agrupar">
+        <header class="cabecera">
+            <h1 id="titulo-principal">Financial Intelligence</h1>
+        </header> 
+
+        <nav class="menu">
+            <ul>
+                <li>Principal</li>
+                <li>ayuda</li>
+                <li>contacto</li>
+            </ul>
+        </nav>
+
+        <section class="seccion">
+            <div class="filtro"></div>
+            <article class="textoseccion">
+                <hgroup>
+                    <h2>¿Tenes dudas a la hora de solicitar un credito? ¿No sabes por donde empezar a calcular?</h2>
+                    <h3>Te acercamos el primer simulador junto con asesoramiento de nuestros expertos en dinero para que solicites el que se ajuste a tus necesidades</h3>
+                </hgroup>
+                <hgroup>
+                    <h2>¿Queres generar ganancias en algo seguro, y no sabes por donde empezar?</h2>
+                    <h3>Te contamos que es, y como podes invertir en un "Plazo Fijo"</h3>
+                 </hgroup> 
+            </article>
+        </section>
+
+        <aside class="columna">
+            <h5>Contacta a tu asesor</h5>
+            <p class="contactarexperto">Hace clic en el boton o presiona enter para contactar a un experto</p>
+            <button id="btn-contactar-agente"  class="btn-default">Contactar a mi agente</button>
+        </aside>
+
+        <aside class="columna">
+            <h5>
+                Creditos pedidos
+            </h4> 
+            <button id="ver-creditos" class="btn-default">
+                Ver creditos
+            </button>
+            <div id="tabla-creditos">
+                <p id="estado-no-creditos-pedidos">No hay creditos pedidos</p>
+                <ul id="lista-creditos-pedidos"></ul>
+            </div>
+            <button id="solicitar-credito" class="btn-default">
+                Solicitar credito
+            </button>
+        </aside>
+
+        <footer class="pie">
+            Derechos reservados 2010-2018
+        </footer>
+      </div>  
+      <script src="data/creditos.json"></script>
+      <script src="storage.js"></script>
+      <script src="ajax.js"></script>
+      <script src="Cliente.js"></script>
+      <script src="index.js"></script>
+    </body>
+</html>
+
+
